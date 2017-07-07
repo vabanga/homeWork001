@@ -2,7 +2,7 @@
 $name = "Georgy";
 $age = "18";
 $mail = "gohavorsin@gmail.com";
-$sity = "Khabarovsk";
+$city = "Khabarovsk";
 $textAboutMe = "Меня зовут Георгий, мне 18 лет и я живу в Хабаровске!";
 ?>
 
@@ -36,6 +36,17 @@ $textAboutMe = "Меня зовут Георгий, мне 18 лет и я жи�
         <dt>Возраст</dt>
         <dd><?php echo $age ?></dd>
     </dl>
-    
+    <dl>
+        <dt>Адрес электронной почты</dt>
+        <dd><a href="mailto:dfitiskin@gmail.com"><?php echo $mail ?></a></dd>
+    </dl>
+    <dl>
+        <dt>Город</dt>
+        <dd><?php echo $city ?></dd>
+    </dl>
+    <dl>
+        <dt>О себе</dt>
+        <dd><?php echo $textAboutMe ?></dd>
+    </dl>
 </body>
 </html>
